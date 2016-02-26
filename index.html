@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Move Names Into Departments</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<h1>Group Organizer</h1>
+		<h5>Enter Name and Salary</h5>
+		<div id="inputField">
+			<div>Enter Name: </div>
+			<input id="name" name="Name" type="text" class="clearField">
+			<div>Enter Salary Number:</div>
+			<input type="number" name="Salary"id="salary" class="clearField">
+			<button id="addPerson">Add Person</button>
+		</div>
+	</div>
+	<div id="allLists">
+		<div class="unsortedNames">Unassigned Budget:</div>
+		<div class="holder" id="unsorted">
+			<div id="total">
+				Total Salary: $0
+			</div>
+		</div>
+		<div class="teamName">Design Team's 2016 Salary Budget:</div>
+		<div class="holder" id="designTeam">
+			<div id="totalDesign">
+				Total Salary: $0
+			</div>
+		</div>
+		<div class="teamName">Development Team's 2016 Salary Budget:</div>
+		<div class="holder" id="devTeam">
+			<div id="totalDev">
+				Total Salary: $0
+			</div>
+		</div>
+		<div class="teamName">Sales Team's 2016 Salary Budget:</div>
+		<div class="holder" id="salesTeam">
+			<div id="totalSales">
+				Total Salary: $0
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="main.js"></script>
+	
+</body>
+</html>

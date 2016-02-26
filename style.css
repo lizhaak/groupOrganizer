@@ -1,0 +1,35 @@
+* {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#inputField {
+}
+
+.holder {
+	margin-top: 15px;
+	border: 2px solid black;
+	display: inline-block;
+	width: 40%;
+	min-height: 200px;
+}
+
+.unsortedNames {
+	margin-top: 25px;
+}
+
+.teamName {
+	margin-top: 25px;
+}
+
+.personInfo {
+	border: 2px solid blue;
+	width: 50%;
+	height: 20px;
+	text-align: center;
+}
+
+.selected {
+	background-color: blue;
+	color: white;
+}
